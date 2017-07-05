@@ -5,6 +5,15 @@ package oukohou;
  * If this runs wrong, don't ask me, I don't know why;
  * If this runs right, thank god, and I don't know why.
  * Maybe the answer, my friend, is blowing in the wind.
+ * <Todo> 实现乘方函数，不用考虑大数问题，不使用库函数。 </Todo>
+ * solution：
+ *      考虑几个情况：
+ *      1.底数为0时，应输出1，其中判断双精度数为0，有库函数；
+ *      2.指数为0时，应输出1；
+ *      3.指数为负时，先求正值次方，然后1除以该值；
+ *
+ *
+ *
  */
 public class InterviewQuestion_11_power {
 
