@@ -20,3 +20,10 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/src/demo_test/Char_and_int.java
+/src/demo_test/Double_direction_linkedlist.java
+/src/demo_test/Linked_List_my.java
+.idea/CamForOffer.iml
+.idea/uiDesigner.xml
+out/
+
