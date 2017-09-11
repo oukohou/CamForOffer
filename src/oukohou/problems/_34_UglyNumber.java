@@ -7,6 +7,7 @@ package oukohou.problems;
  * Maybe the answer, my friend, is blowing in the wind.
  */
 public class _34_UglyNumber {
+
     public static int getUglyNumber(int n) {
         if (n <= 0) {
             return 0;
