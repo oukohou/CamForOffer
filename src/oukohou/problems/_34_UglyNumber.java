@@ -5,6 +5,10 @@ package oukohou.problems;
  * If this runs wrong, don't ask me, I don't know why;
  * If this runs right, thank god, and I don't know why.
  * Maybe the answer, my friend, is blowing in the wind.
+ * problem:
+ * 只包含银子2、3、5的数称为丑数，求第n个丑数；
+ * solution：
+ * 空间换时间，创建数组，保存之前的丑数，下次更新时只需乘以2、3、5，找到其中最小的数，即可。
  */
 public class _34_UglyNumber {
 
